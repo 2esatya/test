@@ -19,6 +19,6 @@ http://www.mulesoft.org/schema/mule/test http://www.mulesoft.org/schema/mule/tes
         
        
         <set-payload
-            value="#[string:aaaHello World! zzIt is now: #[server.dateTime]]"/>
+            value="#[string:Hello World! zzIt is now: #[server.dateTime]]"/>
     </flow>
 </mule>
